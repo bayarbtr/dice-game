@@ -6,6 +6,8 @@ initGame();
 function initGame(){
     document.querySelector(".player-1-panel").classList.remove("winner");
     document.querySelector(".player-0-panel").classList.remove("winner");
+    document.getElementById("name-0").textContent = "Toglogch 1";
+    document.getElementById("name-1").textContent = "Toglogch 2";
     activePlayer = 0;
     isGameOver = false;
     score = [0,0];
